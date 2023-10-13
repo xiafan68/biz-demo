@@ -89,11 +89,11 @@ func (i ProductRepositoryImpl) GetProductById(ctx context.Context, productId int
 func (i ProductRepositoryImpl) ListProducts(ctx context.Context, filterParam map[string]interface{}) ([]*entity.ProductEntity, error) {
 	products := make([]*po.Product, 0)
 	productEntities := make([]*entity.ProductEntity, 0)
-	DB = DB.Debug().WithContext(ctx)
+	db := DB.Debug().WithContext(ctx)
 	for k, v := range filterParam {
-		DB = DB.Where(k+" = ?", v)
+		db = db.Where(k+" = ?", v)
 	}
-	if err := DB.Find(&products).Error; err != nil {
+	if err := db.Find(&products).Error; err != nil {
 		return nil, err
 	}
 	for _, v := range products {

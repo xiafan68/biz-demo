@@ -21,3 +21,6 @@
 */vendor
 */bin
 */log
+
+__debug*
+output
