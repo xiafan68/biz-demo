@@ -26,10 +26,10 @@ const (
 	ShopLoginName     = "admin"
 	ShopLoginPassword = "123"
 
-	MySQLDefaultDSN = "gorm:gorm@tcp(localhost:3306)/gorm?charset=utf8&parseTime=True&loc=Local"
-	EtcdAddress     = "127.0.0.1:2379"
-	ESAddress       = "http://localhost:9200"
-	RedisAddress    = "127.0.0.1:6379"
+	MySQLDefaultDSN = "gorm:gorm@tcp(10.37.40.198:3306)/gorm?charset=utf8&parseTime=True&loc=Local"
+	EtcdAddress     = "10.37.40.198:2379"
+	ESAddress       = "http://10.37.40.198:9200"
+	RedisAddress    = "10.37.40.198:6379"
 
 	RedisConnPoolSize = 20
 
