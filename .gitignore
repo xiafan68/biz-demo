@@ -22,5 +22,5 @@
 */bin
 */log
 
-__debug*
 output
+__debug_bin*

@@ -13,6 +13,7 @@ require (
 	github.com/hertz-contrib/jwt v1.0.1
 	github.com/hertz-contrib/pprof v0.1.0
 	github.com/hertz-contrib/swagger v0.0.0-20220711030440-b6402d4709f0
+	github.com/issue9/assert v1.5.0
 	github.com/jinzhu/copier v0.3.5
 	github.com/kitex-contrib/registry-etcd v0.1.0
 	github.com/olivere/elastic/v7 v7.0.32

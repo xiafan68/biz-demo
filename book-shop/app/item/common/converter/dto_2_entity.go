@@ -77,9 +77,6 @@ func ConvertEditReq2Entity(originEntity *entity.ProductEntity, req *item.EditReq
 	if req.Name != nil {
 		targetEntity.Name = *req.Name
 	}
-	if req.Pic != nil {
-		targetEntity.Pic = *req.Pic
-	}
 	if req.Description != nil {
 		targetEntity.Description = *req.Description
 	}
