@@ -30,7 +30,6 @@ func (converter *productDO2POConverter) Convert2po(ctx context.Context, do *enti
 	po := &po.Product{
 		ProductId:   do.ProductId,
 		Name:        do.Name,
-		Pic:         do.Pic,
 		Description: do.Description,
 		ISBN:        "",
 		SpuName:     "",
