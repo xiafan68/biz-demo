@@ -16,32 +16,32 @@
 package conf
 
 const (
-	UserTableName    = "t_user"
-	ProductTableName = "t_product"
-	OrderTableName   = "t_order"
+        UserTableName    = "t_user"
+        ProductTableName = "t_product"
+        OrderTableName   = "t_order"
 
-	SecretKey   = "secret key"
-	IdentityKey = "id"
+        SecretKey   = "secret key"
+        IdentityKey = "id"
 
-	ShopLoginName     = "admin"
-	ShopLoginPassword = "123"
+        ShopLoginName     = "admin"
+        ShopLoginPassword = "123"
 
-	MySQLDefaultDSN = "gorm:gorm@tcp(10.37.40.198:3306)/gorm?charset=utf8&parseTime=True&loc=Local"
-	EtcdAddress     = "10.37.40.198:2379"
-	ESAddress       = "http://10.37.40.198:9200"
-	RedisAddress    = "10.37.40.198:6379"
+        MySQLDefaultDSN = "gorm:gorm@tcp([fdbd:dc01:ff:30a:1b4c:f36f:bb8f:8e26]:3306)/gorm?charset=utf8&parseTime=True&loc=Local"
+        EtcdAddress     = "[fdbd:dc01:ff:30a:1b4c:f36f:bb8f:8e26]:2379"
+        ESAddress       = "http://[fdbd:dc01:ff:30a:1b4c:f36f:bb8f:8e26]:9200"
+        RedisAddress    = "[fdbd:dc01:ff:30a:1b4c:f36f:bb8f:8e26]:6379"
 
-	RedisConnPoolSize = 20
+        RedisConnPoolSize = 20
 
-	RedisKey_User = "user-"
+        RedisKey_User = "user-"
 
-	ProductESIndex = "product"
+        ProductESIndex = "product"
 
-	UserRpcServiceName   = "cwg.bookshop.user"
-	OrderRpcServiceName  = "cwg.bookshop.order"
-	ItemRpcServiceName   = "cwg.bookshop.item"
-	UserServiceAddress   = "127.0.0.1:8889"
-	OrderServiceAddress  = "127.0.0.1:8890"
-	ItemServiceAddress   = "127.0.0.1:8891"
-	FacadeServiceAddress = "127.0.0.1:8080"
+        UserRpcServiceName   = "cwg.bookshop.user"
+        OrderRpcServiceName  = "cwg.bookshop.order"
+        ItemRpcServiceName   = "cwg.bookshop.item"
+        UserServiceAddress   = "127.0.0.1:8889"
+        OrderServiceAddress  = "127.0.0.1:8890"
+        ItemServiceAddress   = "127.0.0.1:8891"
+        FacadeServiceAddress = "127.0.0.1:8080"
 )
